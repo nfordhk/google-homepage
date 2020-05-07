@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center;
+    border: 5px solid black;
+}
+
+.google-logo {
+    height: 15%;
+    width: 15%;
+}
+
+.header-nav-left{
+    float: left;
+}
+
+.header-nav-right {
+    float: right;
+}
+
+.footer-nav-left {
+    float: left;
+    border: 5px solid red;
+}
+
+.footer-nav-right {
+    float: right;
+    border: 5px solid blue;
+}
