@@ -9,12 +9,15 @@ li {
     margin-left: 5px;
     margin-right: 20px;
     padding-left: 5px;
+    padding-top: 10px;
 }
 a {
     text-decoration: none;
     color: rgb(95, 99, 104);
     font: arial, sans-serif;
-    font-size: 20px;
+    font-size: 15px;
+    padding-left: 15px;
+    opacity: 0.9;
 }
 
 a:hover{
@@ -25,6 +28,7 @@ a:hover{
     height: 40px;
     width: 100%;
     align-items: center;
+    margin-top: 15px;
 }
 
 .header-navbar-left {
@@ -35,24 +39,62 @@ a:hover{
     float: right;
 }
 
+.sign-in {
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    height: 30px;
+    width: 75px;
+    color: white;
+}
+
 .container{
-    border: 2px solid black;
+    /*border: 2px solid black;*/
+    margin-top: 200px;
 }
 
 .google-logo{
-    border: 2px solid grey;
+    /*border: 2px solid grey;*/
     display: flex;
     justify-content: center;
 }
 
-.search-bar {
+.search-bar-div {
     display: flex;
     justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.search-bar {
+    border-radius: 25px;
+    width: 500px;
+    height: 25px;
 }
 
 .search-buttons{
     display: flex;
     justify-content: center;
+}
+
+.googleSearch-button{
+    margin-right: 20px;
+    height: 35px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+}
+
+.feelingLucky-button {
+    height: 35px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;  
 }
 
 .google-logo-size {
